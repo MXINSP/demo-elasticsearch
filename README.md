@@ -1,1 +1,1 @@
-# demo-elasticsearch
+# Elasticsearch with Kibana

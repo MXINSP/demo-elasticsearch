@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>450ad699-530d-4cd4-abcb-23579709acd9</UserSecretsId>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.4" />
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.2" />
+
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+
+		<PackageReference Include="Serilog.AspNetCore" Version="6.1.1-dev-00295" />
+		<PackageReference Include="Serilog.Settings.Configuration" Version="4.0.0-dev-00486" />
+		<PackageReference Include="Serilog.Expressions" Version="3.4.2-dev-00119" />
+		<PackageReference Include="Serilog.Exceptions" Version="8.4.0" />
+
+		<PackageReference Include="Serilog.Sinks.Elasticsearch" Version="9.0.1" />
+		<PackageReference Include="Serilog.Enrichers.Span" Version="3.1.0" />
+		<PackageReference Include="Serilog.Enrichers.Environment" Version="2.3.0-dev-00792" />
+		<PackageReference Include="Serilog.Enrichers.Thread" Version="3.2.0-dev-00752" />
+	</ItemGroup>
+
+</Project>
